@@ -11,7 +11,8 @@
     "angular-cookies": "~1.0.7",
     "angular-sanitize": "~1.0.7",
     "angular-ui": "~0.4.0",
-    "jquery-ui": "~1.10.3"
+    "jquery-ui": "~1.10.3",
+    "angular-localstorage": "*"
   },
   "devDependencies": {
     "angular-mocks": "~1.0.7",
