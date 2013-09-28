@@ -8,12 +8,7 @@ angular.module('palitobolitaApp')
       'Karma'
     ];
     
-	  var todosInStore = localStorageService.get('todos');
-		$scope.todos = todosInStore && todosInStore.split('\n') || [];
-		
-		$scope.$watch(function() {
-			localStorageService.add('todos', $scope.todos.join('\n'));
-		});
+	  $scope.todos = ['Item 1', 'Item 2', 'Item 3'];
     
 	  $scope.addTodo = function(){
 			$scope.todos.push($scope.todo);
