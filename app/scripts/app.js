@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('palitobolitaApp', [])
+angular.module('palitobolitaApp', ['ui'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
