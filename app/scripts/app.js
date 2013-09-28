@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('palitobolitaApp', ['ui', 'LocalStorageModule'])
+angular.module('palitobolitaApp', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

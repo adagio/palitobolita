@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('palitobolitaApp')
-  .controller('MainCtrl', function ($scope, localStorageService) {
+  .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
