@@ -1,7 +1,7 @@
 palitobolita
 ============
 
-Task List, testing Brower, Yeoman and AngularJS UI
+Task List: testing Brower, Yeoman and AngularJS UI
 
 References:
 
